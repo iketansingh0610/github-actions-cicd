@@ -4,6 +4,7 @@ name: Code
 # When the workflow should run
 on:
   push: 
+  workflow_call: 
 
 # jobs in the workflow
 jobs:
