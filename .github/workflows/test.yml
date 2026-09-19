@@ -1,0 +1,11 @@
+name: test
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on:
+    steps:
+      - name: test the code
+        run: echo "code test using Sonar/pytest"
